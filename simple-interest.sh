@@ -1,14 +1,11 @@
 #!/bin/bash
-# This calculation computes simple interest given principal,
-# annual rate of interest, and time period in years.
-
-# Do not use this in production. Sample purpose only.
-
-# Author: IBM Developer Skills Network
+# A script to calculate simple interest
+# Input fields: principal, rate of interest, time period
 
 echo "Enter the principal:"
 read p
 echo "Enter rate of interest per year:"
+read r
 echo "Enter time period in years:"
 read t
 
